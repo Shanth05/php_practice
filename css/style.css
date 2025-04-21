@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #e2e2e2;
+    transition: background-color 0.3s, color 0.3s;
+}
+@media (max-width: 768px) {
+    .active {
+        color: red;
+    }
+}
+@media (min-width: 769px) {
+    .active {
+        color: blue;
+    }
+}
